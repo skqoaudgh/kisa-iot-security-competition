@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/skqoaudgh/kisa-iot-security-competition/issues"
   },
-  "homepage": "https://github.com/skqoaudgh/kisa-iot-security-competition#readme"
+  "homepage": "https://github.com/skqoaudgh/kisa-iot-security-competition#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
 }
