@@ -14,7 +14,7 @@ function writeAndDrain(data, callback) {
 
 port.on('open', function() { // 아두이노와 연결됐을 때
     console.log('Serial port is opened.');
-    port.on('data', function(data) { // 아두이노로부터 데이터를 받았을 때 :: 아두이노에서는 Serial.write(value)  함수를 통해 데이터 전송
+    port.on('data', function(data) { // 아두이노로부터 데이터를 받았을 때 :: 아두이노에서는 Serial.print(value)  함수를 통해 데이터 전송
         console.log('Arduino send data: ', data);
         writeAndDrain(data, function() {
             console.log('Server send data to Arduino: ', data);
@@ -24,4 +24,4 @@ port.on('open', function() { // 아두이노와 연결됐을 때
 
 app.listen(8000, () => {
     console.log('The server is opened on port 8000.');
-});
+}); // 8000 포트를 통해 서버 가동
