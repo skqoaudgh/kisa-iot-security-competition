@@ -1,0 +1,19 @@
+{
+  "name": "kisa-iot-security-competition",
+  "version": "1.0.0",
+  "description": "KISA IoT 보안 위협 시나리오 공모전",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skqoaudgh/kisa-iot-security-competition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skqoaudgh/kisa-iot-security-competition/issues"
+  },
+  "homepage": "https://github.com/skqoaudgh/kisa-iot-security-competition#readme"
+}
